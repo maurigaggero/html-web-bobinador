@@ -80,11 +80,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 
-.enganche p{
-font-size: 3.9rem;
-text-align: center;
-}
-
 .col-md-7 h2, col-md-7 order-md-2 h2{
   padding-left: 10px;
   font-size: 64px;
