@@ -135,6 +135,17 @@ textarea {
   cursor:pointer;
 }
 
+.fade-slide {
+  opacity: 0;
+    transform: translateX(-10px) translateY(10px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-slide.show {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
 /*********************/
 
 body {
